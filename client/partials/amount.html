@@ -1,0 +1,24 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4">
+			<div class="panel panel-default">
+				<div class="panel-heading">Seleziona l'importo</div>
+				<div class="panel-body">
+					<div class="radio">
+						<label><input type="radio" ng-model="payment.amount" value="5" /> 5 €</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" ng-model="payment.amount" value="10" /> 10 €</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" ng-model="payment.amount" value="20" /> 20 €</label>
+					</div>
+					<div class="form-group">
+						<input type="number" class="form-control" ng-model="payment.amount" required placeholder="Altro" />
+					</div>
+					<a href="/#/carta" class="btn btn-default pull-right">Avanti</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
